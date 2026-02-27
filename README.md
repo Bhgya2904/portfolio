@@ -1,16 +1,54 @@
-# React + Vite
+# Bhagyasri Mane - Personal Portfolio ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my personal developer portfolio! This project showcases my skills, experience, and projects as a passionate Frontend Developer, built with modern web technologies.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+*(Insert Live Link Here Once Deployed, e.g., Vercel or Netlify)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Design & UI
+The UI is designed with a sleek, modern **"Night Mode / Bento Box"** aesthetic:
+- **Palette**: Sophisticated deep slate (`#0f172a`) background with vibrant sky blue (`#38bdf8`) accents.
+- **Typography**: Uses `Plus Jakarta Sans` for high legibility and a premium tech feel.
+- **Micro-interactions**: Glassmorphism cards with subtle hover bounds, soft glows, and custom scrollbars. 
 
-## React Compiler
+## 🛠️ Built With
+- **React.js** (via Vite)
+- **Bootstrap** (React-Bootstrap for responsive grid layouts)
+- **React Icons** (For scalable SVG iconography)
+- **Vanilla CSS** (For custom glassmorphism and animations)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+- `src/components/Hero.jsx` - Landing introduction and profile display.
+- `src/components/About.jsx` - Personal background and vertical education timeline.
+- `src/components/Skills.jsx` - Categorized technical skills using badge components.
+- `src/components/Experience.jsx` - Professional internship experiences.
+- `src/components/Projects.jsx` - Detailed breakdown of top full-stack and frontend projects.
+- `src/components/Contact.jsx` - Direct communication links (Email, Phone, LinkedIn).
+- `src/index.css` - Core design system, variables, and animations.
 
-## Expanding the ESLint configuration
+## 🏃‍♀️ Running Locally
+If you want to clone this project and run it locally on your machine:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Bhgya2904/portfolio.git
+   ```
+2. **Navigate to the directory:**
+   ```bash
+   cd portfolio
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Connect with Me
+- **LinkedIn**: [Bhagyasri Mane](https://linkedin.com/in/bhagyasri-mane-3a2abb280/)
+- **Email**: manebhagyasri05@gmail.com
+
+---
+*Designed & developed by Bhagyasri Mane.*
