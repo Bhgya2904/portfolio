@@ -34,22 +34,31 @@ const Hero = () => {
                             {/* Decorative background circle */}
                             <div className="position-absolute" style={{ top: '10%', left: '5%', width: '90%', height: '90%', background: 'linear-gradient(135deg, var(--primary), var(--secondary))', borderRadius: '50%', filter: 'blur(40px)', opacity: '0.4', zIndex: 0 }}></div>
 
-                            <img
-                                src="/profile.jpg"
-                                alt="Bhagyasri Mane"
+                            <div
                                 className="position-relative"
                                 style={{
                                     width: '100%',
                                     aspectRatio: '1/1.1',
-                                    objectFit: 'cover',
-                                    objectPosition: 'center 15%', // Crops out the bottom half, focusing on the face/torso
-                                    borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', // Organic blob shape to break up the background lines
+                                    borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%',
                                     border: '4px solid rgba(255, 255, 255, 0.1)',
                                     boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
-                                    zIndex: 1,
-                                    transition: 'all 0.5s ease'
+                                    overflow: 'hidden',
+                                    zIndex: 1
                                 }}
-                            />
+                            >
+                                <img
+                                    src="/profile.jpg"
+                                    alt="Bhagyasri Mane"
+                                    style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        objectFit: 'cover',
+                                        objectPosition: 'center 12%',
+                                        transform: 'scale(1.4)',
+                                        transition: 'all 0.5s ease'
+                                    }}
+                                />
+                            </div>
                         </div>
                     </Col>
                 </Row>
