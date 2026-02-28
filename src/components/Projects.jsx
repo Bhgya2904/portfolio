@@ -4,6 +4,14 @@ import { FaLaptopCode, FaChevronRight } from 'react-icons/fa';
 
 const projects = [
     {
+        title: "DivineRoute AI - Travel Planner",
+        tech: "React, Vite, Gemini API",
+        desc: [
+            "Developed an AI-powered travel planning app that generates personalized day-by-day itineraries using Google Gemini AI.",
+            "Implemented a modern startup-style UI with beautiful micro-interactions, dynamic AI loaders, and persistent local storage."
+        ]
+    },
+    {
         title: "HouseHunt - Rental Web App",
         tech: "React, MongoDB, Express.js, JWT",
         desc: [
