@@ -4,6 +4,12 @@ import { FaCertificate } from 'react-icons/fa';
 
 const certificates = [
     {
+        title: "Frontend Developer Internship",
+        issuer: "Back & Forth Solutions (Unipool)",
+        date: "August 4, 2025",
+        image: "/certificates/unipool.png"
+    },
+    {
         title: "Prompt Engineering for Developers",
         issuer: "Udemy (Learnsector LLP)",
         date: "Feb 16, 2026",
