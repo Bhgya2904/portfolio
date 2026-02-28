@@ -26,7 +26,7 @@ const Contact = () => {
                                                 <FaEnvelope />
                                             </div>
                                             <h5 className="text-white h6 font-weight-bold mb-2">Email</h5>
-                                            <span className="text-muted small">manebhagyasri05@gmail.com</span>
+                                            <span className="text-white small">manebhagyasri05@gmail.com</span>
                                         </div>
                                     </a>
                                 </Col>
@@ -37,7 +37,7 @@ const Contact = () => {
                                                 <FaPhone />
                                             </div>
                                             <h5 className="text-white h6 font-weight-bold mb-2">Phone</h5>
-                                            <span className="text-muted small">+91 9121034060</span>
+                                            <span className="text-white small">+91 9121034060</span>
                                         </div>
                                     </a>
                                 </Col>
@@ -48,7 +48,7 @@ const Contact = () => {
                                                 <FaLinkedin />
                                             </div>
                                             <h5 className="text-white h6 font-weight-bold mb-2">LinkedIn</h5>
-                                            <span className="text-muted small">Bhagyasri Mane</span>
+                                            <span className="text-white small">Bhagyasri Mane</span>
                                         </div>
                                     </a>
                                 </Col>
