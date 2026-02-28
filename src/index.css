@@ -204,33 +204,21 @@ h6 {
   box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2) !important;
   left: -2.45rem !important;
   top: 8px !important;
+
 }
 
 .hero-img-container {
-  border-radius: 20px;
-  overflow: hidden;
   position: relative;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
   width: 100%;
-  aspect-ratio: 4/5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   transition: transform 0.5s ease;
 }
 
 .hero-img-container:hover img {
-  transform: scale(1.05);
-}
-
-.hero-img-container::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  pointer-events: none;
+  transform: scale(1.02);
 }

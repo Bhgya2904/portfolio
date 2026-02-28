@@ -29,11 +29,26 @@ const Hero = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col lg={5} className="d-flex justify-content-center justify-content-lg-end">
-                        <div className="hero-img-container" style={{ maxWidth: '380px', width: '100%' }}>
+                    <Col lg={5} className="d-flex justify-content-center justify-content-lg-end mt-5 mt-lg-0">
+                        <div className="hero-img-container position-relative" style={{ maxWidth: '350px', width: '100%' }}>
+                            {/* Decorative background circle */}
+                            <div className="position-absolute" style={{ top: '10%', left: '5%', width: '90%', height: '90%', background: 'linear-gradient(135deg, var(--primary), var(--secondary))', borderRadius: '50%', filter: 'blur(40px)', opacity: '0.4', zIndex: 0 }}></div>
+
                             <img
-                                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+                                src="/profile.jpg"
                                 alt="Bhagyasri Mane"
+                                className="position-relative"
+                                style={{
+                                    width: '100%',
+                                    aspectRatio: '1/1.1',
+                                    objectFit: 'cover',
+                                    objectPosition: 'center 15%', // Crops out the bottom half, focusing on the face/torso
+                                    borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%', // Organic blob shape to break up the background lines
+                                    border: '4px solid rgba(255, 255, 255, 0.1)',
+                                    boxShadow: '0 20px 40px rgba(0,0,0,0.4)',
+                                    zIndex: 1,
+                                    transition: 'all 0.5s ease'
+                                }}
                             />
                         </div>
                     </Col>
