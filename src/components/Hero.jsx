@@ -49,20 +49,27 @@ const Hero = () => {
                                 <img
                                     src="/profile.jpg"
                                     alt="Bhagyasri Mane"
-                                    style={{
-                                        width: '100%',
-                                        height: '100%',
-                                        objectFit: 'cover',
-                                        objectPosition: 'center 12%',
-                                        transform: 'scale(1.4)',
-                                        transition: 'all 0.5s ease'
-                                    }}
+                                    className="hero-profile-image"
                                 />
                             </div>
                         </div>
                     </Col>
                 </Row>
             </Container>
+            <style dangerouslySetInnerHTML={{
+                __html: `
+                    .hero-profile-image {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center 12%;
+                        transform: translateY(-20px) scale(1.4);
+                        transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+                    }
+                    .hero-img-container:hover .hero-profile-image {
+                        transform: translateY(-25px) scale(1.45);
+                    }
+                `}} />
         </section>
     );
 };
